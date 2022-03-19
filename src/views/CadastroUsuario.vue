@@ -1,5 +1,5 @@
 <template >
-    <v-container id ="login-page"> 
+    <v-container> 
 
         <v-img class="inicio-imagem" src="http://shoppingjardins.com.br/arquivos/hotsites/pascoa/assets/img/logo.png?cache=3"></v-img>
 
@@ -7,8 +7,7 @@
 
                  <v-tabs fixed-tabs background-color="brown darken-4" color="white" v-model="tabsForm">
 
-                    <v-tab key="register"> Login </v-tab>
-                    <v-tab key="login"> Cadastre-se </v-tab>
+                    <v-tab> Cadastre-se </v-tab>
 
                 </v-tabs>
            
