@@ -41,7 +41,16 @@
             <v-list-item-icon>
               <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Conta</v-list-item-title>
+            <v-list-item-title>Cadastro</v-list-item-title>
+          </v-list-item>
+        </router-link>
+
+        <router-link to="/login">
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-login-variant</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>Login</v-list-item-title>
           </v-list-item>
         </router-link>
 
