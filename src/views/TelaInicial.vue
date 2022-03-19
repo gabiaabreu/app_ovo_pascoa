@@ -10,7 +10,7 @@
         O intuito deste App é promover uma aproximação entre vendedores de ovos de Páscoa caseiros e potenciais compradores, de uma maneira mais intuitiva, prática e humana.
       </h4>
 
-      <v-btn color="brown--text text--darken-2 text-align center" elevation="2">Conferir ovos disponíveis</v-btn>
+      <v-btn class="botao" to="/listaovos" color="brown--text text--darken-2" elevation="2">Conferir ovos disponíveis</v-btn>
 
   </v-container>
 
@@ -41,6 +41,13 @@ body {
   margin-top: 400px;
   
   border-radius: 8px;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 
 h4{
