@@ -68,6 +68,11 @@
                                  elevation="2">
                                  Cadastrar
                                  </v-btn>
+                                 <v-btn to="/login" class="button-cadastrar mt-6 mb-4 ml-4" 
+                                 color="brown--text text--darken-2 text-align center" 
+                                 elevation="2">
+                                 Faça login
+                                 </v-btn>
 
                             </v-form>
                     
