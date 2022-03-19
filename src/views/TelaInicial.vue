@@ -6,9 +6,8 @@
       src="../assets/HappyEaster.jpg" 
       ></v-img>
 
-      <h4>
-        O intuito deste App é promover uma aproximação entre vendedores de ovos de Páscoa caseiros e potenciais compradores, de uma maneira mais intuitiva, prática e humana.
-      </h4>
+      <h4>Que tal aproveitar esse momento de Pandemia e agilizar o seu negocio? Ou não precisar sair de casa e com um simples clique fazer suas compras?
+        A Delicias de Páscoa veio para revolucionar o e-commerce promovendo uma aproximação entre vendedores de ovos de Páscoa caseiros e potenciais compradores! De uma maneira mais intuitiva, prática e humana.</h4>
 
       <v-btn class="botao" to="/listaovos" color="brown--text text--darken-2" elevation="2">Conferir ovos disponíveis</v-btn>
       <v-btn class="botao" to="/cadastro" color="brown--text text--darken-2" elevation="2">Login / Cadastro</v-btn>
