@@ -13,20 +13,49 @@
         </v-row>
 
         <v-row class="d-flex justify-center">
-            <v-col cols="4">
+            <v-col >
+                <v-tabs-items v-model="tabsForm">
+                    
+                        <v-form class="text-center grey lighten-3">
 
-                <v-tabs-items v-model="tabsForm" cols="3">
+                            <v-text-field
+
+                               label="Telefone"
+
+                            ></v-text-field>
+
+                            <v-text-field
+                                v-model="email"
+                                label="Email"
+                                required
+                            ></v-text-field>
+
+                            <v-text-field
+                                v-model="password"
+                                label="Senha"
+                                type="password"
+                                required
+                            ></v-text-field>
+
+                            <v-btn
+                                color="success"
+                                class="justify-space-between"
+                            >
+                                Registrar
+                            </v-btn>
+
+                        </v-form>
+                   
                 </v-tabs-items>
-
             </v-col>
 
         </v-row>
 
-        <v-text-field
+        
 
-          label="Telefone"
 
-        > Telefone </v-text-field>
+       
+
 
 
                
@@ -54,8 +83,6 @@ export default {
 </script>
 
 <style scoped>
-
-
 
 
 </style>
