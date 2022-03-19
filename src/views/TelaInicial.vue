@@ -1,5 +1,5 @@
 <template>
-  <v-container class="fundo">
+  <v-container class="fundo brown lighten-3">
     <h1 class="text h3 text-center mt-10">Seja Bem-vinde! 🐰</h1>
     <v-img
       class="easter-image mt-5 mr-4 ml-4"
@@ -10,7 +10,7 @@
         A Delicias de Páscoa veio para revolucionar o e-commerce promovendo uma aproximação entre vendedores de ovos de Páscoa caseiros e potenciais compradores! De uma maneira mais intuitiva, prática e humana.</h4>
 
       <v-btn class="botao" to="/listaovos" color="brown--text text--darken-2" elevation="2">Conferir ovos disponíveis</v-btn>
-      <v-btn class="botao" to="/cadastro" color="brown--text text--darken-2" elevation="2">Login</v-btn>
+      <v-btn class="botao" to="/cadastro" color="brown--text text--darken-2" green elevation="2">Login</v-btn>
       <v-btn class="botao" to="/cadastro" color="brown--text text--darken-2" elevation="2">Cadastro</v-btn>
       
   </v-container>
