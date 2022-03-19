@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1 class="text h3 text-center mt-10">Seja Bem-vinde!</h1>
+    <h1 class="text h3 text-center mt-10">Seja Bem-vindo!</h1>
     <v-img
       class="easter-image mt-5"
       max-width = "350"
