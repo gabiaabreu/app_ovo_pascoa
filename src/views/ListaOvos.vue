@@ -1,7 +1,6 @@
 <template>
     <v-container class = "text-center brown lighten-3">
         <h2 class = "text-h5 text-center mr-4 mb-3 mt-5"><strong>🐇 Lista de Ovos 🐇</strong></h2>
-      
          <div v-for="lista of listaOvos" :key="lista.nome">
             <v-img class="lista-imagem text-center mb-3 mt-5" style="margin-left: 44px" :src="lista.imagem" max-height="150" max-width="250"></v-img>
             <p style="text-transform: uppercase"><strong>{{lista.nome}}</strong></p>
@@ -22,7 +21,7 @@ export default {
     name: 'ListaOvos',
     data(){
         return {
-            listaOvos: []
+            listaOvos: [],
         }
     },
     created(){

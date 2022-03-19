@@ -15,7 +15,31 @@
             </thead>
             <tbody>
                 <tr>
-                <td>0</td>
+                <td>-</td>
+                <td class="text-right"> -</td>
+                </tr>
+                <tr>
+                <td>-</td>
+                <td class="text-right"> -</td>
+                </tr>
+                <tr>
+                <td>-</td>
+                <td class="text-right"> -</td>
+                </tr>
+            </tbody>
+            <thead>
+                <tr>
+                <th class="text-left">
+                    Quantidade
+                </th>
+                <th class="text-right">
+                    Total
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>-</td>
                 <td class="text-right">R$0,00</td>
                 </tr>
             </tbody>
@@ -61,7 +85,8 @@
 export default {
     data: () => ({
       items: ['Cartão de Crédito', 'Cartão de Débito', 'Pix', 'Boleto Bancário'],
-    }),
+    })
+    
 }
 </script>
 
