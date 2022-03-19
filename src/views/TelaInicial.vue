@@ -12,7 +12,7 @@
       <v-btn class="botao" to="/listaovos" color="brown--text text--darken-2" elevation="2">Conferir ovos disponíveis</v-btn>
       <v-btn class="botao" to="/cadastro" color="brown--text text--darken-2" elevation="2">Login</v-btn>
       <v-btn class="botao" to="/cadastro" color="brown--text text--darken-2" elevation="2">Cadastro</v-btn>
-
+      
   </v-container>
 
 </template>
