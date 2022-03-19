@@ -63,11 +63,13 @@
 
                                 ></v-text-field>
 
-                                 <v-btn class="button-cadastrar mt-6 mb-7" 
-                                 color="brown--text text--darken-2 text-align center" 
-                                 elevation="2">
-                                 Cadastrar
-                                 </v-btn>
+                                 <router-link to="/listaovos">
+                                    <v-btn class="button-cadastrar mt-6 mb-7" 
+                                    color="brown--text text--darken-2 text-align center" 
+                                    elevation="2">
+                                    Cadastrar
+                                    </v-btn>
+                                 </router-link>
 
                             </v-form>
                     

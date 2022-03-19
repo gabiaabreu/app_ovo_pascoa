@@ -31,11 +31,13 @@
 
                             ></v-text-field>
 
-                                <v-btn class="button-cadastrar mt-6 mb-10" 
-                                color="brown--text text--darken-2 text-align center" 
-                                elevation="2">
+                            <router-link to="/listaovos">
+                                <v-btn class="button-login mt-6 mb-10" 
+                                active-class="brown--text text--darken-2 text-align center" 
+                                elevation="2" style="text-decoration: none;">
                                 Login
                                 </v-btn>
+                            </router-link>
 
                         </v-form>
                 
@@ -68,7 +70,10 @@ export default {
 
 .container {
     background-color: #BCAAA4 ;
+    text-decoration: none;
 }
+
+
 
 
 </style>
