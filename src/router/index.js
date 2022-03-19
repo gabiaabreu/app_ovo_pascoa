@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import TelaInicial from '../views/TelaInicial.vue'
 import ListaOvos from '../views/ListaOvos.vue'
 import CadastroUsuario from '../views/CadastroUsuario.vue'
+import LoginUsuario from '../views/LoginUsuario.vue'
+import Carrinho from '../views/Carrinho.vue'
 
 Vue.use(VueRouter)
 
