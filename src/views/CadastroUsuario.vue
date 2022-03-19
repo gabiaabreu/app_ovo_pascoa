@@ -1,11 +1,11 @@
 <template >
     <v-container id ="login-page"> 
 
-        <v-img class="inicio-imagem mt-4" src="http://shoppingjardins.com.br/arquivos/hotsites/pascoa/assets/img/logo.png?cache=3"></v-img>
+        <v-img class="inicio-imagem" src="http://shoppingjardins.com.br/arquivos/hotsites/pascoa/assets/img/logo.png?cache=3"></v-img>
 
         <v-row class="d-flex justify-center">
 
-                 <v-tabs fixed-tabs background-color="blue-grey lighten-5" color="black" v-model="tabsForm">
+                 <v-tabs fixed-tabs background-color="brown darken-4" color="white" v-model="tabsForm">
 
                     <v-tab key="register"> Login </v-tab>
                     <v-tab key="login"> Cadastre-se </v-tab>
@@ -64,7 +64,11 @@
 
                                 ></v-text-field>
 
-                                 <v-btn class="button-cadastrar mt-6 mb-4" color="brown--text text--darken-2 text-align center" elevation="2">Cadastrar</v-btn>
+                                 <v-btn class="button-cadastrar mt-6 mb-4" 
+                                 color="brown--text text--darken-2 text-align center" 
+                                 elevation="2">
+                                 Cadastrar
+                                 </v-btn>
 
                             </v-form>
                     
