@@ -7,7 +7,7 @@
     >
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Delicias de Páscoa</v-toolbar-title>
+      <v-toolbar-title class="titulo text-center">Delicias de Páscoa</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
