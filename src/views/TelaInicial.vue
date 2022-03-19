@@ -1,17 +1,20 @@
 <template>
-  <div class="app-top-bar">
-    <v-app-bar app color="brown darken-4">
-      <v-app-icon></v-app-icon>
-      <v-toolbar-title>Nome do App</v-toolbar-title>
-      <h1>Seja Bem-vinde!</h1>
-      <v-img src="../assets/HappyEaster.jpg" alt="Happ Easter" > 
-        
-      </v-img>
-    </v-app-bar>
-  </div>
+  <v-container>
+    <h1 class="text-h3 text-center mt-10">Seja Bem-vinde!</h1>
+    <v-img src="../assets/HappyEaster.jpg" max-width="300" max-height="300"></v-img>
+  </v-container>
+
 </template>
 
 
-<style scoped>
+
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 </style>
