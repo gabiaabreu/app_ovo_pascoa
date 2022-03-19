@@ -28,6 +28,12 @@
 
                                 ></v-text-field>
 
+                                 <v-text-field
+
+                                label="Email"
+
+                                ></v-text-field>
+
                                 <v-text-field
 
                                 label="Telefone"
@@ -36,7 +42,19 @@
 
                                 <v-text-field
 
-                                label="Email"
+                                label="Endereço"
+
+                                ></v-text-field>
+
+                                 <v-text-field
+
+                                label="Data de nascimento"
+
+                                ></v-text-field>
+
+                                <v-text-field
+
+                                label="CPF"
 
                                 ></v-text-field>
 
@@ -46,12 +64,7 @@
 
                                 ></v-text-field>
 
-                                <v-btn
-                                    color="success"
-                                    class="justify-space-between"
-                                >
-                                    Registrar
-                                </v-btn>
+                                 <v-btn class="button-cadastrar mt-6 mb-4" color="brown--text text--darken-2 text-align center" elevation="2">Cadastrar</v-btn>
 
                             </v-form>
                     
@@ -61,7 +74,7 @@
             </v-row>
         </div>
 
-        <v-img class="inicio-imagem mt-4" src="https://i.ytimg.com/vi/4X3ZzyTuPoY/maxresdefault.jpg"></v-img>
+
 
     </v-container>    
 
