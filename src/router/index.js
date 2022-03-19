@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import TelaInicial from '../views/TelaInicial.vue'
 import ListaOvos from '../views/ListaOvos.vue'
 import CadastroUsuario from '../views/CadastroUsuario.vue'
+import LoginUsuario from '../views/LoginUsuario.vue'
+import CarrinhoUsuario from '../views/CarrinhoUsuario.vue'
 
 Vue.use(VueRouter)
 
@@ -30,7 +32,7 @@ const routes = [
   {
     path: '/carrinho',
     name: 'carrinho',
-    component: Carrinho
+    component: CarrinhoUsuario
   }
 ]
 
