@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1 class="text h3 text-center mt-10">Seja Bem-vindo!</h1>
+    <h1 class="text h3 text-center mt-10">Seja Bem-vinde! 🐰</h1>
     <v-img
       class="easter-image mt-5 mr-4 ml-4"
       src="../assets/HappyEaster.jpg" 
@@ -11,6 +11,7 @@
       </h4>
 
       <v-btn class="botao" to="/listaovos" color="brown--text text--darken-2" elevation="2">Conferir ovos disponíveis</v-btn>
+      <v-btn class="botao" to="/cadastro" color="brown--text text--darken-2" elevation="2">Login / Cadastro</v-btn>
 
   </v-container>
 
@@ -54,6 +55,7 @@ h4{
   text-align: justify;
   margin: 20px;
   text-indent:2em;
+  background-color:#BCAAA4;
 }
 
 </style>
