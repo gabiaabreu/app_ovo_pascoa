@@ -1,5 +1,5 @@
 <template >
-    <v-container class ="grey lighten-3" id ="login-page"> 
+    <v-container  id ="login-page"> 
 
         <v-row class="d-flex justify-center">
 
@@ -18,23 +18,28 @@
                     
                         <v-form class="text-center grey lighten-3">
 
+                             <v-text-field
+
+                               label="Nome"
+
+                            ></v-text-field>
+
                             <v-text-field
 
                                label="Telefone"
 
                             ></v-text-field>
 
-                            <v-text-field
-                                v-model="email"
-                                label="Email"
-                                required
+                             <v-text-field
+
+                               label="Email"
+
                             ></v-text-field>
 
-                            <v-text-field
-                                v-model="password"
-                                label="Senha"
-                                type="password"
-                                required
+                             <v-text-field
+
+                               label="Senha"
+
                             ></v-text-field>
 
                             <v-btn
