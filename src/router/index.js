@@ -21,6 +21,16 @@ const routes = [
     path: '/cadastro',
     name: 'cadastro',
     component: CadastroUsuario
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: LoginUsuario
+  },
+  {
+    path: '/carrinho',
+    name: 'carrinho',
+    component: Carrinho
   }
 ]
 

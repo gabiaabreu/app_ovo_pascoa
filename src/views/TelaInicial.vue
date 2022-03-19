@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="fundo">
     <h1 class="text h3 text-center mt-10">Seja Bem-vinde! 🐰</h1>
     <v-img
       class="easter-image mt-5 mr-4 ml-4"
@@ -18,11 +18,7 @@
 </template>
 
 <script>
-import Vuetify from "vuetify/lib/framework";
 
-export default new Vuetify({
-  theme: { brown: true }, 
-})
 </script>
 
 
@@ -34,15 +30,20 @@ export default new Vuetify({
 }
 
 body {
-  background-color: #BCAAA4
+  background-color: #BCAAA4;
 }
 
 .easter-image {
   align-items: center;
-  margin-top: 400px;
-  
+  margin-top: 100px;
   border-radius: 8px;
 }
+
+.fundo {
+  margin: 0;
+  padding: 0px;
+}
+
 
 .botao {
   display: flex;
