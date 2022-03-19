@@ -5,8 +5,11 @@
         <li v-for="lista of listaOvos" :key="lista.nome">
          <v-img :src="lista.imagem" max-height="150" max-width="250"></v-img>
          <p>{{lista.nome}}</p>
-         <p>{{lista.preco}}</p>
-         <p>{{lista.sabor}}</p>
+         <p>Preço: R${{lista.preco}}</p>
+         <p>Sabor: {{lista.sabor}}</p>
+         <p>Cep: {{lista.local.cep}}</p>
+         <p>Endereço: {{lista.local.endereco}}</p>
+
         </li>
       </ul>
 
