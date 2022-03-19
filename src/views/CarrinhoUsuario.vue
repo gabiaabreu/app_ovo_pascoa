@@ -75,8 +75,9 @@
         
         <v-btn class="botao" to="/listaovos" color="brown--text text--darken-2" elevation="2">Simular frete</v-btn>
 
-        <v-btn class="botao" to="/listaovos" color="brown--text text--darken-2" elevation="2">Concluir compra</v-btn>
+        <v-btn class="botao" to="/" color="brown--text text--darken-2" elevation="2">Concluir compra</v-btn>
 
+        <v-btn class="botao" to="/listaovos" color="brown--text text--darken-2" elevation="2">Continuar comprando</v-btn>
 
     </v-container>
 </template>
