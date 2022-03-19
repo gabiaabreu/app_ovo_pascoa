@@ -2,16 +2,16 @@
   <v-container>
     <h1 class="text h3 text-center mt-10">Seja Bem-vindo!</h1>
     <v-img
-      class="easter-image mt-5"
-      max-width = "350"
-      max-height = "350"
+      class="easter-image mt-5 mr-4 ml-4"
       src="../assets/HappyEaster.jpg" 
       ></v-img>
 
-      <h3>
-        O intuito do nosso App é que tenha uma aproximação entre vendedores de ovos caseiros e compradores de uma maneira mais intuitiva, prática e humana.
-        
-        </h3>
+      <h4>
+        O intuito deste App é promover uma aproximação entre vendedores de ovos de Páscoa caseiros e potenciais compradores, de uma maneira mais intuitiva, prática e humana.
+      </h4>
+
+      <v-btn color="brown--text text--darken-2 text-align center" elevation="2">Conferir ovos disponíveis</v-btn>
+
   </v-container>
 
 </template>
@@ -40,12 +40,13 @@ body {
   align-items: center;
   margin-top: 400px;
   
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
-h3{
-  text-align: center;
-  margin-top: 50px;
+h4{
+  text-align: justify;
+  margin: 20px;
+  text-indent:2em;
 }
 
 </style>
