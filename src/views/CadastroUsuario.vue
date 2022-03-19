@@ -63,8 +63,20 @@
 
                                 ></v-text-field>
 
+                                <v-col
+                                    class="d-flex"
+                                    cols="12"
+                                    sm="6"
+                                    >
+                                    <v-select
+                                    :items="items"
+                                    filled
+                                    label="Você quer comprar ou vender?"
+                                    ></v-select>
+                                </v-col>
+
                                  <router-link to="/listaovos">
-                                    <v-btn class="button-cadastrar mt-6 mb-7" 
+                                    <v-btn class="button-cadastrar mb-7" 
                                     color="brown--text text--darken-2 text-align center" 
                                     elevation="2">
                                     Cadastrar
@@ -90,7 +102,8 @@
 export default {
     name: 'CadastroUsuario',
     data: () => ({
-        tabsform: null
+        tabsform: null,
+        items: ['Quero comprar', 'Quero vender'],
     })
    
 }
