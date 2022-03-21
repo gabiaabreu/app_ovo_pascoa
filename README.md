@@ -2,7 +2,7 @@
   <h1>Hackthon Decola - Iteris - Time 23</h1>
   
   <h2>Desafio Escolhido </h2>
-  <p>Ovos de Pascoa Caseiros</p>
+  <p>Ovos de Páscoa Caseiros</p>
 
   <h2>Cenário</h2>
   <p>Durante a pandemia várias famílias que tiveram que diversificar na hora de compor e recuperar a renda.</p>
@@ -30,8 +30,7 @@
   <h2>Tecnologias Utilizadas</h2>
   <ul>
   
-  <li>Visual Studio Code</li>
-  <li>Git</li>
+  <li>Vue</li>
   
   </ul>
 
